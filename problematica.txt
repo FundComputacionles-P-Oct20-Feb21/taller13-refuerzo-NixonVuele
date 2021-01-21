@@ -1,0 +1,28 @@
+1.  Inicio
+2.  funcion principal()
+3.     k, i[0-n]
+4.     k1, i[0-n]
+5.     residuo, i[0-n]
+6.     j, i[0-n]
+7.     j <-- 0
+8.     Escribir "Ingrese un numero:"
+9.     Leer k
+10.    Para(k1 <-- k, k1 > 0 , k1 <-- contador(k1) haga
+11.        residuo <-- residuo(k1)
+12.        Escribir <-- residuo+"* 10 elevado a la potencia "+j
+13.        j <-- j +1
+14.    Fin_Para
+15. fin funcion principal()
+
+16. funcion residuo (i,k1) : i
+17.		residuo, i[0-n]
+18.     residuo <--  k1 MOD 10
+19.     return residuo
+20. fin funcion residuo()
+
+21. funcion contador (i,num1) : i
+22.		respuesta, i[0-n]
+23.     respuesta <--  num1 / 10
+24.     return respuesta
+25. fin funcion contador()
+26. fin
