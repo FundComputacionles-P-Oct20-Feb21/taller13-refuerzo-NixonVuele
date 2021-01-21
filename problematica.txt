@@ -9,8 +9,8 @@
 9.     Leer k
 10.    Para(k1 <-- k, k1 > 0 , k1 <-- contador(k1) haga
 11.        residuo <-- residuo(k1)
-12.        Escribir <-- residuo+"* 10 elevado a la potencia "+j
-13.        j <-- j +1
+12.        Escribir <-- residuo+" * 10 elevado a la potencia "+j
+13.        j <-- j + 1
 14.    Fin_Para
 15. fin funcion principal()
 
@@ -20,9 +20,9 @@
 19.     return residuo
 20. fin funcion residuo()
 
-21. funcion contador (i,num1) : i
+21. funcion contador (i,k1) : i
 22.	respuesta, i[0-n]
-23.     respuesta <--  num1 / 10
+23.     respuesta <--  k1 / 10
 24.     return respuesta
 25. fin funcion contador()
 26. fin
