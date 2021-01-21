@@ -15,13 +15,13 @@
 15. fin funcion principal()
 
 16. funcion residuo (i,k1) : i
-17.		residuo, i[0-n]
+17.	residuo, i[0-n]
 18.     residuo <--  k1 MOD 10
 19.     return residuo
 20. fin funcion residuo()
 
 21. funcion contador (i,num1) : i
-22.		respuesta, i[0-n]
+22.	respuesta, i[0-n]
 23.     respuesta <--  num1 / 10
 24.     return respuesta
 25. fin funcion contador()
